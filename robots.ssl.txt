@@ -1,0 +1,26 @@
+User-agent: *
+Disallow: /manager/
+Disallow: /assets/components/
+Disallow: /core/
+Disallow: /connectors/
+Disallow: /index.php
+Disallow: *?*
+Disallow: *openstat=
+Disallow: *from=
+Disallow: *utm*=
+Disallow: /search?search=*
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.gif
+Allow: /*.png
+Allow: /*.pdf
+Allow: /*.doc
+Allow: /*.docx
+Allow: /*.xls
+Allow: /*.xlsx
+Allow: /*.ppt
+Allow: /*.pptx
+Allow: /*.css
+Allow: /*.js
+
+Sitemap: https://ailibri.com/sitemap.xml

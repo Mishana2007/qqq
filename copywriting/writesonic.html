@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="ru" data-bs-theme="dark">
+<head>
+<meta charset="utf-8" />
+<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+<link rel="manifest" href="../site.webmanifest.txt">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="../assets/templates/2023/plugins/venobox/venobox.min.css" type="text/css" media="screen" />
+
+<script async src="https://statika.mpsuadv.ru/scripts/7952.js"></script>
+
+
+            <title>Нейросеть Writesonic: описание и инструкция к ИИ</title>
+    
+    <meta name="description" content="Платформа для создания текстов и изображений с помощью искусственного интеллекта (ИИ), которая помогает создавать любой вид контента в 10 раз быстрее. ">
+
+
+    <link rel="canonical" href="writesonic.html"/>
+
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script>
+
+<!--<base href="https://ailibri.com/" />-->
+</head>
+
+
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 col-md-3 bg-dark text-light d-flex flex-column offcanvas-xl offcanvas-start overflow-auto py-3 px-xxl-5" id="sidebar" tabindex="-1">
+            <div class="offcanvas-header position-relative">
+    <div class="position-absolute top-0 end-0 m-3">
+        <div data-bs-theme="dark">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#sidebar" aria-label="Close"></button>
+        </div>
+    </div>
+</div>
+<a href="../index.html" class="d-flex w-100" style="text-decoration: none;">
+    <img class="" style="width: 185px;" src="../assets/templates/2023/images/logo5.svg" alt="Logo">
+</a><form class="form-inline simplesearch-search-form" action="../search.html" method="get">
+    <fieldset>
+	    <input class="search form-control bg-transparent border-primary text-light" type="text" placeholder="1000+ AI нейросетей на одном сайте" aria-label="Search" name="search" id="search" value="">
+        <input type="hidden" name="id" value="1236" />
+	</fieldset>
+</form><hr>
+
+<div class="favorites mb-2">
+    <ul class="list-group micro">
+    </ul>
+</div>
+
+<div class="container my-2 p-2 rounded micro category-filter">
+    <div class="row">
+        <div class="col">
+            <div role="button" class="p-2 d-flex justify-content-between filterToggle"><span class="">Фильтр категорий ИИ</span><span class=""><i class="bi bi-chevron-down"></i></span></div>
+            <div class="filterHidden">
+                <form id="easy-filter-wrap" class="form-check text-lowercase" data-bs-theme="dark">
+                	<div class="form-check-inline">
+                		<label class="form-check-label me-3" data-easyfilter="text">
+                			<input class="form-check-input" type="checkbox" name="options" id="text"> Текст </label>
+                	</div>
+                	<div class="form-check-inline">
+                		<label class="form-check-label me-3" data-easyfilter="image">
+                			<input class="form-check-input" type="checkbox" name="options" id="image"> Изображение </label>
+                	</div>
+                	<div class="form-check-inline">
+                		<label class="form-check-label me-3" data-easyfilter="video">
+                			<input class="form-check-input" type="checkbox" name="options" id="video"> Видео </label>
+                	</div>
+                	<div class="form-check-inline">
+                		<label class="form-check-label me-2" data-easyfilter="search">
+                			<input class="form-check-input" type="checkbox" name="options" id="searching"> Поиск </label>
+                	</div>
+                	<div class="form-check-inline">
+                		<label class="form-check-label me-3" data-easyfilter="sound">
+                			<input class="form-check-input" type="checkbox" name="options" id="sound"> Звук </label>
+                	</div>
+                	<div class="form-check-inline">
+                		<label class="form-check-label me-3" data-easyfilter="education">
+                			<input class="form-check-input" type="checkbox" name="options" id="education"> Учёба </label>
+                	</div>
+                	<div class="form-check-inline">
+                		<label class="form-check-label me-3" data-easyfilter="coding">
+                			<input class="form-check-input" type="checkbox" name="options" id="coding"> Кодинг </label>
+                	</div>
+                	<div class="form-check-inline">
+                		<label class="form-check-label me-3" data-easyfilter="etc">
+                			<input class="form-check-input" type="checkbox" name="options" id="etc"> Остальное </label>
+                	</div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="offcanvas-body mt-2">
+    <ul  class="nav nav-pills flex-column mb-auto leftMenu" id="leftMenu"><li  class="first"  data-easyitem="search">
+    <a class="d-block" href="../search-engine/index.html">
+        <span class="emoji">🔍</span>&nbsp;
+        <span  class="text-light">Поиск и поисковые системы</span>    </a>
+</li><li   data-easyitem="">
+    <a class="d-block" href="../life-assistant/index.html">
+        <span class="emoji">🧘‍♀️</span>&nbsp;
+        <span  class="text-light">Ассистент</span>    </a>
+</li><li   data-easyitem="">
+    <a class="d-block" href="../productivity/index.html">
+        <span class="emoji">🚀</span>&nbsp;
+        <span  class="text-light">Продуктивность</span>    </a>
+</li><li   data-easyitem="text">
+    <a class="d-block" href="../general-writing/index.html">
+        <span class="emoji">✍️</span>&nbsp;
+        <span  class="text-light">Пишущие ИИ</span>    </a>
+</li><li   data-easyitem="etc">
+    <a class="d-block" href="../18-plus/index.html">
+        <span class="emoji">🔞</span>&nbsp;
+        <span  class="text-light">Нейросети 18+</span>    </a>
+</li><li  class="active"  data-easyitem="text">
+    <a class="d-block" href="index.html">
+        <span class="emoji">📝</span>&nbsp;
+        <span  class="text-light">Копирайтинг</span>    </a>
+</li><li   data-easyitem="education">
+    <a class="d-block" href="../presentations/index.html">
+        <span class="emoji">🖥️</span>&nbsp;
+        <span  class="text-light">Презентации</span>    </a>
+</li><li   data-easyitem="text">
+    <a class="d-block" href="../paraphraser/index.html">
+        <span class="emoji">💬</span>&nbsp;
+        <span  class="text-light">Перефразирование</span>    </a>
+</li><li   data-easyitem="text">
+    <a class="d-block" href="../story-teller/index.html">
+        <span class="emoji">📖</span>&nbsp;
+        <span  class="text-light">Сторителлинг</span>    </a>
+</li><li   data-easyitem="text">
+    <a class="d-block" href="../prompts/index.html">
+        <span class="emoji">💡</span>&nbsp;
+        <span  class="text-light">Промпты (запросы)</span>    </a>
+</li><li   data-easyitem="text">
+    <a class="d-block" href="../transcriber/index.html">
+        <span class="emoji">🎧</span>&nbsp;
+        <span  class="text-light">Транскриптор</span>    </a>
+</li><li   data-easyitem="text">
+    <a class="d-block" href="../summarizer/index.html">
+        <span class="emoji">🔽</span>&nbsp;
+        <span  class="text-light">Суммаризация (передача смысла)</span>    </a>
+</li><li   data-easyitem="image">
+    <a class="d-block" href="../art/index.html">
+        <span class="emoji">🎨</span>&nbsp;
+        <span  class="text-light">Арт</span>    </a>
+</li><li   data-easyitem="image">
+    <a class="d-block" href="../image-generator/index.html">
+        <span class="emoji">🖼️</span>&nbsp;
+        <span  class="text-light">Генератор изображений</span>    </a>
+</li><li   data-easyitem="image">
+    <a class="d-block" href="../image-editing/index.html">
+        <span class="emoji">🎨</span>&nbsp;
+        <span  class="text-light">Редактирование изображений</span>    </a>
+</li><li   data-easyitem="image">
+    <a class="d-block" href="../avatars/index.html">
+        <span class="emoji">👤</span>&nbsp;
+        <span  class="text-light">Аватары</span>    </a>
+</li><li   data-easyitem="image">
+    <a class="d-block" href="../3d/index.html">
+        <span class="emoji">🔲</span>&nbsp;
+        <span  class="text-light">3D</span>    </a>
+</li><li   data-easyitem="image">
+    <a class="d-block" href="../design-assistant/index.html">
+        <span class="emoji">🎨</span>&nbsp;
+        <span  class="text-light">Помощник дизайнера</span>    </a>
+</li><li   data-easyitem="image">
+    <a class="d-block" href="../logo-generator/index.html">
+        <span class="emoji">🖼️</span>&nbsp;
+        <span  class="text-light">Генераторы логотипов</span>    </a>
+</li><li   data-easyitem="video">
+    <a class="d-block" href="../video-generator/index.html">
+        <span class="emoji">📽️</span>&nbsp;
+        <span  class="text-light">Создание видео</span>    </a>
+</li><li   data-easyitem="video">
+    <a class="d-block" href="../video-editing/index.html">
+        <span class="emoji">🎥</span>&nbsp;
+        <span  class="text-light">Редактирование видео</span>    </a>
+</li><li   data-easyitem="video">
+    <a class="d-block" href="../personalized-videos/index.html">
+        <span class="emoji">📺</span>&nbsp;
+        <span  class="text-light">Персональное видео</span>    </a>
+</li><li   data-easyitem="sound">
+    <a class="d-block" href="../music/index.html">
+        <span class="emoji">🎵</span>&nbsp;
+        <span  class="text-light">Музыка</span>    </a>
+</li><li   data-easyitem="sound">
+    <a class="d-block" href="../audio-editing/index.html">
+        <span class="emoji">🎧</span>&nbsp;
+        <span  class="text-light">Редактирование звука</span>    </a>
+</li><li   data-easyitem="sound">
+    <a class="d-block" href="../text-to-speech/index.html">
+        <span class="emoji">🗨️</span>&nbsp;
+        <span  class="text-light">Текст-в-речь</span>    </a>
+</li><li   data-easyitem="education">
+    <a class="d-block" href="../education-assistant/index.html">
+        <span class="emoji">🎓</span>&nbsp;
+        <span  class="text-light">Помощники в обучении</span>    </a>
+</li><li   data-easyitem="coding">
+    <a class="d-block" href="../code-assistant/index.html">
+        <span class="emoji">✍️</span>&nbsp;
+        <span  class="text-light">Помощники в кодинге</span>    </a>
+</li><li   data-easyitem="coding">
+    <a class="d-block" href="../low-code-no-code/index.html">
+        <span class="emoji">💻</span>&nbsp;
+        <span  class="text-light">Low-code/No-code</span>    </a>
+</li><li   data-easyitem="coding">
+    <a class="d-block" href="../developer-tools/index.html">
+        <span class="emoji">🛠️</span>&nbsp;
+        <span  class="text-light">Инструменты разработчика</span>    </a>
+</li><li   data-easyitem="text">
+    <a class="d-block" href="../seo/index.html">
+        <span class="emoji">📈</span>&nbsp;
+        <span  class="text-light">SEO</span>    </a>
+</li><li   data-easyitem="coding">
+    <a class="d-block" href="../sql/index.html">
+        <span class="emoji">📊</span>&nbsp;
+        <span  class="text-light">SQL</span>    </a>
+</li><li   data-easyitem="coding">
+    <a class="d-block" href="../spreadsheets/index.html">
+        <span class="emoji">📅</span>&nbsp;
+        <span  class="text-light">Электронные таблицы</span>    </a>
+</li><li   data-easyitem="etc">
+    <a class="d-block" href="../research/index.html">
+        <span class="emoji">📚</span>&nbsp;
+        <span  class="text-light">Исследования</span>    </a>
+</li><li   data-easyitem="etc">
+    <a class="d-block" href="../legal-assistant/index.html">
+        <span class="emoji">📜</span>&nbsp;
+        <span  class="text-light">Помощники юриста</span>    </a>
+</li><li   data-easyitem="etc">
+    <a class="d-block" href="../resources/index.html">
+        <span class="emoji">🔖</span>&nbsp;
+        <span  class="text-light">Ресурсы</span>    </a>
+</li><li   data-easyitem="etc">
+    <a class="d-block" href="../finance/index.html">
+        <span class="emoji">💵</span>&nbsp;
+        <span  class="text-light">Финансы</span>    </a>
+</li><li   data-easyitem="etc">
+    <a class="d-block" href="../sales/index.html">
+        <span class="emoji">💰</span>&nbsp;
+        <span  class="text-light">Продажи</span>    </a>
+</li><li   data-easyitem="etc">
+    <a class="d-block" href="../startup-tools/index.html">
+        <span class="emoji">💡</span>&nbsp;
+        <span  class="text-light">Инструменты стартапера</span>    </a>
+</li><li   data-easyitem="etc">
+    <a class="d-block" href="../e-commerce/index.html">
+        <span class="emoji">🛒</span>&nbsp;
+        <span  class="text-light">E-commerce</span>    </a>
+</li><li   data-easyitem="etc">
+    <a class="d-block" href="../human-resources/index.html">
+        <span class="emoji">👥</span>&nbsp;
+        <span  class="text-light">Управление персоналом</span>    </a>
+</li><li   data-easyitem="etc">
+    <a class="d-block" href="../real-estate/index.html">
+        <span class="emoji">🏠</span>&nbsp;
+        <span  class="text-light">Недвижимость</span>    </a>
+</li><li   data-easyitem="etc">
+    <a class="d-block" href="../social-media-assistant/index.html">
+        <span class="emoji">📱</span>&nbsp;
+        <span  class="text-light">Ассистенты по социальным медиа</span>    </a>
+</li><li   data-easyitem="etc">
+    <a class="d-block" href="../email-assistant/index.html">
+        <span class="emoji">📨</span>&nbsp;
+        <span  class="text-light">Ассистент электронной почты</span>    </a>
+</li><li   data-easyitem="etc">
+    <a class="d-block" href="../customer-support/index.html">
+        <span class="emoji">🗨️</span>&nbsp;
+        <span  class="text-light">Службы поддержки клиентов</span>    </a>
+</li><li   data-easyitem="etc">
+    <a class="d-block" href="../memory/index.html">
+        <span class="emoji">💾</span>&nbsp;
+        <span  class="text-light">Память</span>    </a>
+</li><li   data-easyitem="etc">
+    <a class="d-block" href="../experiments/index.html">
+        <span class="emoji">🔬</span>&nbsp;
+        <span  class="text-light">Эксперименты</span>    </a>
+</li><li   data-easyitem="etc">
+    <a class="d-block" href="../healthcare/index.html">
+        <span class="emoji">⚕️</span>&nbsp;
+        <span  class="text-light">Здоровье</span>    </a>
+</li><li   data-easyitem="etc">
+    <a class="d-block" href="../fashion/index.html">
+        <span class="emoji">👗</span>&nbsp;
+        <span  class="text-light">Мода</span>    </a>
+</li><li   data-easyitem="etc">
+    <a class="d-block" href="../fun-tools/index.html">
+        <span class="emoji">👾</span>&nbsp;
+        <span  class="text-light">Развлечения</span>    </a>
+</li><li   data-easyitem="etc">
+    <a class="d-block" href="../gaming/index.html">
+        <span class="emoji">🎮</span>&nbsp;
+        <span  class="text-light">Игры</span>    </a>
+</li><li   data-easyitem="etc">
+    <a class="d-block" href="../gift-ideas/index.html">
+        <span class="emoji">🎁</span>&nbsp;
+        <span  class="text-light">Идеи подарков</span>    </a>
+</li><li  class="last"  data-easyitem="search">
+    <a class="d-block" href="../ai-detector/index.html">
+        <span class="emoji">🤖</span>&nbsp;
+        <span  class="text-light">Проверка на ИИ</span>    </a>
+</li></ul>
+</div>        </div>      
+        <div class="col-12 col-xl-9 p-3 rightside">
+            <button class="btn btn-primary sandwich-btn d-xl-none position-fixed bottom-0 end-0 m-3 z-3 " type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="sidebar">
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="row">
+                <div class="w-100 p-0">
+                        <!-- Yandex.RTB R-A-2510636-1 -->
+                        <div id="yandex_rtb_R-A-2510636-1"></div>
+                        <script>window.yaContextCb.push(()=>{
+                        	Ya.Context.AdvManager.render({
+                        		"blockId": "R-A-2510636-1",
+                        		"renderTo": "yandex_rtb_R-A-2510636-1"
+                        	})
+                        })
+                        </script>
+                </div>
+
+                                    
+                    <div class="my-2 p-0">
+                        <nav class="crumbs" style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+    <ol class="breadcrumb m-0">
+        <li class="breadcrumb-item p-2 rounded-start-3">
+    <a href="../index.html">
+        <i class="bi bi-house-door-fill"></i>
+    </a>
+</li>
+<li class="breadcrumb-item p-2">
+    <a href="index.html" class="text-decoration-none" itemprop="breadcrumb">Копирайтинг</a>
+
+</li>
+    <li class="breadcrumb-item active p-2 rounded-end-3">
+        <span itemprop="name">Writesonic</span>
+    </li>
+    </ol>
+</nav>                    </div>
+                        <div class="col-sm-6 aiSingle px-0 firstcard d-flex align-items-stretch">
+
+        <div class="card border-0">
+            <div class="card-header p-0" itemscope itemtype="http://schema.org/ImageObject">
+                                                            <img class="w-100" src="https://ailibri.com/assets/components/phpthumbof/cache/%D1%81%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA-%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0-2023-04-05-190637.07d8b1de9978e06acb69972b81c77303.webp" class="card-img-top" alt="Writesonic" itemprop="contentUrl">
+                                                                        <h1 class="card-title m-4 fw-bold" itemprop="name">Нейросеть Writesonic</h1>
+                                            </div>
+
+    
+                
+            <div class="card-body">
+                <ul class="list-group list-group-flush cardlist">
+
+                                                                <li class="list-group-item" id="free-mode" itemprop="businessModel">Бизнес-модель: 
+                                                            Freemium                            
+                                                    </li>
+                            
+        
+                                                                        <li class="list-group-item">
+                                                                    <a class="btn btn-primary icon-link" role="button" target="_blank" href="https://writesonic.com/?ref=ailibricom" link="noopener nofollow" itemprop="url">
+                                        <img class="faviconSiteAi rounded" src="https://global-uploads.webflow.com/627a1044a798e6627445c8d1/627a1045a798e6698745c9ea_favicon-256.png" alt="Writesonic AI logo" title="Writesonic AI logo">
+                                        <span>Перейти на&nbsp;сайт</span>
+                                    </a>
+                                                                <a class="btn btn-outline-primary mt-xs-0 mt-1" role="button" target="_blank" href="https://writesonic.com/free-tools/?ref=ailibricom" link="noopener nofollow" itemprop="additionalLink">Ссылка №2</a>
+                    			<button type="button" class="btn btn-outline-secondary border-0 addToFav singleAddtoFav" title="Добавить в избранное">
+            			          <i class="bi bi-bookmark-heart-fill"></i>
+            			        </button>
+            			        
+                            </li>
+                                                                                    
+                                                                <li class="list-group-item" id="subscription" itemprop="minimumSubscriptionCost">Минимальная стоимость подписки: $ 12.67/mo</li>
+                            
+        
+                            
+                    <li class="list-group-item">
+                        <ul class="list-inline">
+                        <li class="list-inline-item mt-1 mt-xs-0 me-1 me-xs-0 p-0">
+    <a target="_blank" title="Категория «SEO»" class="icon-link btn btn-outline-primary btn-sm tag" href="../seo/index.html" role="button"><span>📈</span><span>SEO</span></a>
+</li>
+<li class="list-inline-item mt-1 mt-xs-0 me-1 me-xs-0 p-0">
+    <a target="_blank" title="Категория «Копирайтинг»" class="icon-link btn btn-outline-primary btn-sm tag" href="index.html" role="button"><span>📝</span><span>Копирайтинг</span></a>
+</li>                         </ul>
+                    </li> 
+                                        
+                         
+                                            <li class="list-group-item">
+                            <div class="card-text"><p>Writesonic - это платформа для создания текстов и изображений с помощью искусственного интеллекта (ИИ), которая помогает создавать любой вид контента в 10 раз быстрее. Writesonic предлагает различные инструменты для копирайтинга, такие как AI Writer, Sonic Editor, Paraphraser, Expander и Shortener. С их помощью вы можете создавать SEO-оптимизированные и уникальные тексты для блогов, рекламы, электронных писем и сайтов .</p></div>
+                        </li>
+                                    </ul>
+                <div class="neighbors d-flex justify-content-between flex-sm-row flex-column"><button type="button" class="btn btn-sm btn-outline-primary link-prev flex-sm-grow-0 flex-grow-1"><a href="copyai.html">&larr; Copy.ai</a></button><button type="button" class="btn btn-sm btn-outline-primary link-up flex-sm-grow-0 flex-grow-1 mt-sm-0 mt-2">&uarr; <a href="index.html">Копирайтинг</a></button><button type="button" class="btn btn-sm btn-outline-primary link-next flex-sm-grow-0 flex-grow-1  mt-sm-0 mt-2"><a href="clipyboard.html">ClipyBoard &rarr;</a></button></div>            
+            </div>
+        </div>
+    </div>
+    
+        
+        <div class="col-sm-6 px-0 px-sm-2 d-flex align-items-stretch">
+            <div class="card border-0 additional">
+                <div class="card-body">
+                    <ul class="list-group list-group-flush cardlist">
+                        <h2 class="card-title my-3 fw-bold fs-2">Writesonic: как&nbsp;пользоваться, инструкция, видео</h2>
+                        
+                                                
+                                                    <li class="list-group-item">
+                                <h3>Writesonic: видео</h3>
+                                    
+                <div class="position-relative mt-2 p-3" style="background-color: black;" itemscope itemtype="https://schema.org/VideoObject">
+                    <meta itemprop="uploadDate" content="2022-01-02T08:13:05Z">
+                    <h4 itemprop="name" class="video-title fw-light">Write 1500+ Word Blog Posts In Minutes With AI - Writesonic</h4>
+                    <meta itemprop="thumbnailUrl" content="/assets/components/phpthumbof/cache/mqdefault.855b69b9f164a0d7a43e6ed48c65de99.webp">
+                    <a itemprop="embedUrl" target="_blank" href="https://www.youtube.com/embed/VWtE04BHFdM" class="rounded youtube-thumbnail-link position-relative d-block w-100" style="height: 0; padding-bottom: 56.25%; background-image: url(https://ailibri.com/assets/components/phpthumbof/cache/mqdefault.855b69b9f164a0d7a43e6ed48c65de99.webp); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                        <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
+                            <div class="play-overlay position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-75"></div>
+                            <span class="play-button position-absolute top-50 start-50 translate-middle plbtn"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="position-relative mt-2 p-3" style="background-color: black;" itemscope itemtype="https://schema.org/VideoObject">
+                    <meta itemprop="uploadDate" content="2022-01-24T20:02:37Z">
+                    <h4 itemprop="name" class="video-title fw-light">A Quick "How To" Guide for Using Writesonic AI-Powered Writing Assistant</h4>
+                    <meta itemprop="thumbnailUrl" content="/assets/components/phpthumbof/cache/mqdefault.3294cf0ea21a023643ada31f71cb70ea.webp">
+                    <a itemprop="embedUrl" target="_blank" href="https://www.youtube.com/embed/9F0fApedpKQ" class="rounded youtube-thumbnail-link position-relative d-block w-100" style="height: 0; padding-bottom: 56.25%; background-image: url(https://ailibri.com/assets/components/phpthumbof/cache/mqdefault.3294cf0ea21a023643ada31f71cb70ea.webp); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                        <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
+                            <div class="play-overlay position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-75"></div>
+                            <span class="play-button position-absolute top-50 start-50 translate-middle plbtn"></span>
+                        </div>
+                    </a>
+                </div>                            </li>
+                                                
+                                            </ul>
+                </div>
+            </div>
+        </div>
+    
+
+                    
+    <div class="col-12 py-5">
+        <p class="font-monospace text-muted">Нейросеть Writesonic была впервые опубликована 15-02-2023 01:12:14 и&nbsp;вручную отредактирована 05-04-2023 19:07:50.</p>
+    </div>
+
+    <div class="col-12">
+        <div id="anycomment-app"></div>
+        <script>
+        AnyComment = window.AnyComment || []; AnyComment.Comments = [];
+        AnyComment.Comments.push({
+            "root": "anycomment-app",
+            "app_id": 5939,
+            "language": "ru"
+        })
+        var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+        s.src = "https://widget.anycomment.io/comment/embed.js";
+        var sa = document.getElementsByTagName("script")[0];
+        sa.parentNode.insertBefore(s, s.nextSibling);
+        </script>
+    </div>                            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- <div class="container-fluid tagCloudFooter">
+    <ul>
+        <li class="btn me-2 mb-2 fw-bold fs-4">
+            Нейросети и&nbsp;ИИ-инструменты
+        </li>
+        <li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/ai-radio.html">ai радио <sup>1</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/arduino.html">arduino <sup>1</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/app.html">desktop-приложение <sup>8</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/email.html">email <sup>3</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/excel.html">excel <sup>4</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/figma.html">figma <sup>4</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/gif.html">gif <sup>1</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/github.html">github <sup>5</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/google.html">google <sup>9</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/gpt4.html">gpt-4 <sup>8</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/gpu.html">gpu <sup>1</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/image-to-image.html">image-to-image <sup>14</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/microsoft.html">microsoft <sup>1</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/ocr.html">ocr <sup>1</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/premium.html">premium <sup>1</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/python.html">python <sup>5</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/text-to-image.html">text-to-image <sup>83</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/text-to-sound.html">text-to-sound <sup>17</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/text-to-text.html">text-to-text <sup>100</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/text-to-video.html">text-to-video <sup>10</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/twitter.html">twitter <sup>1</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/voice-to-text.html">voice-to-text <sup>16</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/youtube.html">youtube <sup>5</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/automation.html">автоматизация <sup>4</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/animation.html">анимация <sup>3</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/anime.html">аниме <sup>3</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/astrology.html">астрология <sup>1</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/browser.html">браузер <sup>2</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/gaming.html">гейминг <sup>1</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/voice-generator.html">генератор голоса <sup>5</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/voice-assistant.html">голосовой помощник <sup>1</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/interior-design-ai.html">дизайн интерьера <sup>1</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/face-swap.html">замена лица <sup>1</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/games.html">игры <sup>2</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/ai-music.html">ии-музыка <sup>4</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/tool.html">инструмент <sup>19</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/catalog.html">каталог <sup>33</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/books.html">книги <sup>3</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/converter.html">конвертер <sup>1</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/site-constructor.html">конструктор сайтов <sup>2</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/courses.html">курсы <sup>1</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/marketing.html">маркетинг <sup>19</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/mastering.html">мастеринг <sup>1</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/mobile-app.html">мобильное приложение <sup>24</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/mult.html">мультфильмы <sup>1</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/pattern.html">паттерны <sup>3</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/translator.html">переводчики <sup>1</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/pickup.html">пикап <sup>1</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/podcasts.html">подкасты <sup>6</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/image-search.html">поиск изображений <sup>1</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/music-search.html">поиск музыки <sup>1</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/hr.html">поиск работы <sup>3</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/shopping.html">покупки <sup>1</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/speech-to-speech.html">преобразовать речь <sup>1</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/pdf.html">работа с pdf <sup>4</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/extension.html">расширение <sup>14</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/guide.html">руководство <sup>3</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/selfie.html">селфи <sup>2</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/creating-bots.html">создание ботов <sup>2</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/site-building.html">создание сайтов <sup>7</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/chat-bot-creator.html">создание чат-ботов <sup>6</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/postal-cards.html">создать открытки <sup>1</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/remove-object-from-photo.html">удалить объект с фото <sup>3</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/remove-bg.html">удалить фон <sup>5</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/language-model.html">языковая модель <sup>5</sup></a>
+</li>
+<li class="me-2 mb-2 d-inline-block">
+    <a class="d-inline-block btn btn-outline-primary  tagCloudItem" href="../tag/yandex.html">яндекс <sup>3</sup></a>
+</li>    </ul>
+</div>
+
+<footer class="footer pt-5 mt-5 position-relative">
+    <div class="red position-absolute w-100 h-100"></div>
+    <div class="blob position-absolute w-100"></div>
+    <div class="container-fluid">
+        <div class="row d-flex flex-column flex-sm-row justify-content-around my-5 my-sm-0 mx-2 mx-sm-0">
+            <div class="col-3">
+                <div class="bottomMenu nav flex-column">
+                    <a href="../project.html" class="nav-link p-0 fs-2 fw-bold text-white">Проект</a>
+                    <a href="../blog/index.html" class="nav-link p-0 fs-2 fw-bold text-white">Блог</a>
+                    <a href="../contacts.html" class="nav-link p-0 fs-2 fw-bold text-white">Контакты</a>
+                </div>
+            </div>
+            <div class="col-3">
+
+
+            </div>
+            <div class="col-sm-3 col-12 mt-4 mt-sm-0">
+                <div class="addAi_wrap">
+                    <div class="addAi-heading_wrapper fs-5">
+                        <p class="fs-5 fs-sm-4 text-color-text-white">1000+ AI нейросетей на&nbsp;одном сайте</p>
+                    </div>
+                    <div class="form-wrapper mt-4 mt-sm-0">
+                        <a class="btn btn-primary" href="../addAi.html" role="button">Добавить нейросеть</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="container">
+        <div class="row">
+            <div class="footer-logo_wrapper w-100">
+                <img src="../assets/templates/2023/images/footer-logo.svg" loading="lazy" alt="" class="footer-logo w-100">
+            </div>
+        </div>
+    </div> -->
+    
+    <div class="footer_links container-fluid mb-5 mb-sm-0">
+        <div class="container">
+            <div class="footer-line-break col-12 my-5"></div>
+            <div class="row d-flex flex-row flex-wrap flex-sm-no-wrap justify-content-around">
+                <div class="footer_copyright col-5 col-sm-3">
+                    <p>SEO, веб-дизайн, вебмастеринг&nbsp;— <a href="https://asarapulov.ru">asarapulov.ru</a></p>
+                </div>
+                <div class="footer_location d-flex flex-row col-5 col-sm-3 justify-content-centerr">
+                    <p class="ms-1 fw-light">2023 СПб,&nbsp;Россия</p>
+                </div>
+                <div class="footer_socials col col-sm-3 text-center text-md-end">
+                    <a href="https://t.me/n_seti" target="_blank" class="footer-link animate-line">Telegram</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+<link rel="stylesheet" href="../assets/templates/2023/css/style%EF%B9%96v=1.931.css">
+<link rel="stylesheet" href="../assets/templates/2023/css/mediaqueries%EF%B9%96v=1.53.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+
+
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){ m[i]=m[i]||function(){ (m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(92959364, "init", { 
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/92959364" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;800&amp;display=swap" rel="stylesheet">
+
+<script>
+$(document).ready(function() {
+    // Функция фильтрации элементов
+    function filterItems() {
+        var filter = [];
+        $('#easy-filter-wrap input[type="checkbox"]').each(function() {
+            if (this.checked) {
+                filter.push($(this).parent().data('easyfilter'));
+            }
+        });
+        if (filter.length > 0) {
+            $('#leftMenu li').hide();
+            for (var i = 0; i < filter.length; i++) {
+                $('#leftMenu li[data-easyitem="' + filter[i] + '"]').show();
+            }
+        } else {
+            $('#leftMenu li').show();
+        }
+    }
+
+    // При изменении фильтра, вызываем функцию фильтрации элементов
+    $('#easy-filter-wrap input[type="checkbox"]').change(function() {
+        filterItems();
+    });
+    
+    // При загрузке страницы, показываем все элементы
+    filterItems();
+});
+
+
+</script>
+
+
+
+<script>
+$(document).ready(function() {
+
+function showToast() {
+  var toastEl = $('#addToFavToast');
+  var toast = new bootstrap.Toast(toastEl[0]);
+  toast.show();
+}
+
+
+if (localStorage.getItem('favorites') !== null) {
+	$('.favorites ul').html(localStorage.getItem('favorites'));
+}
+
+
+$('.card .addToFav').click(function() {
+    showToast();
+    if ($(this).hasClass("singleAddtoFav")) {
+        var nameAi = $(this).parent().parent().parent().parent().children('.card-header').children('h1').text().replace('Нейросеть ','');
+        var hrefAi = window.location.pathname;
+         $('.favorites ul').append('<li class="list-group-item d-flex justify-content-between align-items-start"><a href="' + hrefAi + '">' + nameAi + '</a>' + '<span type="button" class="badge text-secondary del">X</span></li>');
+    } else {
+	    $('.favorites ul').append('<li class="list-group-item d-flex justify-content-between align-items-start">' + $(this).parent().parent().find('h2').html() + '<span type="button" class="badge text-secondary del">X</span></li>');
+	}
+	var setToLS = $('.favorites ul').html();
+	localStorage.setItem('favorites', setToLS);		
+});
+
+$('.del').click(function() {
+	$(this).parent().remove();
+	var setToLS = $('.favorites ul').html();
+	localStorage.setItem('favorites', setToLS);			
+});
+
+
+$(document).on('click','.del',function() {
+	$(this).parent().remove();
+	var setToLS = $('.favorites ul').html();
+	localStorage.setItem('favorites', setToLS);		
+});
+});
+</script>
+<script>
+// fix double offcanvas-backdrop
+$(document).on('click','.offcanvas-backdrop',function() {
+	console.log('click');
+	$(".offcanvas-backdrop").each(function(i, obj) {
+		$(this).remove();
+	});	
+});
+</script>
+
+<div id="mp_custom_9561"></div> <script>window.mpsuStart = window.mpsuStart || [], window.mpsuStart.push(9561);</script>
+<div id="mp_custom_9563"></div> <script>window.mpsuStart = window.mpsuStart || [], window.mpsuStart.push(9563);</script> 
+
+<!-- Компонент toast -->
+<div class="toast-container position-fixed p-3 bottom-0 end-0" id="toastPlacement">
+    <div class="toast text-white bg-primary border-0" id="addToFavToast" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="toast-header">
+        <strong class="me-auto">Добавлено в избранное</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Закрыть"></button>
+      </div>
+    </div>    
+</div>
+
+
+<!-- показ фильтров -->
+<script>
+$(document).ready(function() {
+	$('.filterToggle').on('click', function() {
+		var icon = $(this).find('i');
+		if (icon.hasClass('bi-chevron-down')) {
+			icon.removeClass('bi-chevron-down').addClass('bi-chevron-up');
+			$(this).next('.filterHidden').show();
+		} else {
+			icon.removeClass('bi-chevron-up').addClass('bi-chevron-down');
+			$(this).next('.filterHidden').hide();
+		}
+	});
+});
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // Проверяем ширину экрана
+  if ($(window).width() > 992) {
+    setTimeout(function() {
+      // Находим .yb и .card
+      var $yb = $('.yb');
+      var $cards = $('.card');
+
+      if ($yb.length > 0 && $cards.length > 1) {
+        var ybHeight = $yb.height();
+        var lastCard = $cards.eq($cards.length - 2); // Получаем предпоследнюю .card
+        var lastCardHeight = lastCard.outerHeight(); // Включая внешние отступы и границы
+        var aiItemInner = lastCard.find('.aiItemInner'); // Находим .aiItemInner
+
+        // Рассчитываем разницу в высоте и применяем к .aiItemInner
+        var heightDifference = ybHeight - lastCardHeight;
+        aiItemInner.css('height', aiItemInner.height() + heightDifference + 'px');
+      }
+    }, 3500); // Задержка в миллисекундах (в данном случае 1000 миллисекунд, что равно 1 секунде)
+  }
+});
+
+
+
+</script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+<script type="text/javascript" src="../assets/templates/2023/plugins/venobox/venobox.min.js"></script>
+<script>
+new VenoBox({
+    selector: ".gallery-item"
+});
+</script>
+
+
+</body>
+</html>

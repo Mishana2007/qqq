@@ -1,0 +1,238 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+html, body{min-height:100vh;}
+
+h2 {
+    font-size: 2em;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+input::placeholder {
+    color: #767676 !important;
+}
+
+.breadcrumb-item {
+    background: #2D3236;
+}
+
+.btn {
+    border-radius: 12px;
+}
+
+.plbtn {
+    width: 98px;
+    height: 70px;
+    background: url('../images/fa-youtube-play.png');
+    background-size: cover; background-repeat: no-repeat;
+}
+
+.logo {
+    width: 200px;
+}
+.aiItemTop {
+    border-color: #9530c7cf;
+}
+
+.recommendLabel {
+	top: -13px;
+    right: 13px;
+    display: flex;
+    background: #9530c7cf;
+    border-radius: 20px;
+    font-size: 11px;
+    gap: 3px;
+}
+
+.titleRec {
+    align-self: center;
+    margin-left: 5px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.filterHidden {
+    display: none;
+}
+
+.aiItem, .aiSingle .card, .aiSingle .list-group-item, .category-filter, .blogItem, .blogArticle, .blogMain, .descriptionCat {
+    background: #292d32;
+}
+
+
+.aiItem {
+
+}
+
+.aiItem .base, .aiItem .roof, .catField {
+    background: #0000002e;
+}
+
+
+.aiSingle .card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.aiSingle ul.cardlist {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+.aiList li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aiList li a span {
+    margin-left: 5px;
+}
+
+
+.faviconSiteAi {
+    width: 25px;
+    vertical-align: bottom;
+}
+
+ul li .tag {
+    color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
+}
+
+.neighbors button a {
+    text-decoration: none;
+}
+
+.leftMenu li a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.leftMenu li a:hover {
+    background-color: #2d445c;
+}
+
+.form-check-inline label, .form-check-inline label input {
+    cursor: pointer;
+}
+
+.micro {
+    font-size: 0.87em;
+}
+
+
+.card-img-top-square {
+	height: 200px;
+	width: 200px;
+	background-size: cover;
+	background-position: center center;
+}
+
+.aiItemImage {
+	width: 229px;
+}
+
+.aiItemImage .card-img-top-square:hover {
+    transition: transform .6s;
+}
+
+.aiItemImage .card-img-top-square:hover {
+    transform: scale(1.2)
+}
+
+.aiItem .card-text, .aiItem .date {
+	font-size: .9rem
+}
+
+.aiItem .card-text {
+    max-height: 190px;
+    overflow: auto;
+}
+
+.widget_body {
+    background-color: black !important;
+}
+
+.firstcard .card::before, .additional::before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    inset: 0;
+    border-radius: 2px;
+    padding: 1px;
+    background: linear-gradient(-45deg, #00008bab, #9932ccb3);
+}
+
+.firstcard .card-header, .firstcard .list-group-item, .lastAIs tr, .aiSingle .list-group-item {
+    border-bottom: 1px solid #9530c74f;
+}
+
+.lastAIs tr, .lastAIs tr td {
+    background: #292D32;
+}
+
+.tagCloudFooter li {
+    list-style-type: none;
+}
+
+.tagCloudFooter li a {
+    text-decoration: none;
+}
+
+.tagCloudItem {
+    font-size: 1.5em;
+}
+
+footer {
+		 overflow-y: hidden;
+}
+
+footer .bottomMenu a, .addAi-heading_wrapper p {
+	letter-spacing: -.03em;
+}
+
+footer a:hover {
+	opacity: .7;
+	outline: 0;
+	transition: opacity .2s;
+}
+
+.footer-line-break {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(239, 234, 227, .3);
+}
+
+footer .red {
+    background: linear-gradient(to left, #c31432, #240b36);
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+footer .blob {
+    background-image: url(../images/blobanimation.svg);
+    background-repeat: no-repeat;
+    background-size: 250%;
+    left: 0;
+    top: 0;
+    background-position: bottom;
+    height: 125vh;
+    z-index: -1;
+}
+
+.aiFree {
+    font-size: 11px;
+}
+
+
